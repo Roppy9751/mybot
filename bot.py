@@ -26,7 +26,7 @@ def talk_to_me(bot , update):
 #This is the body of our telegram bot 
 
 def body():
-	mybot = Updater(setting.API_Key)
+	mybot = Updater(settings.API_Key)
 
 
 	dp =mybot.dispatcher
